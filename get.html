@@ -2,13 +2,10 @@
 <html>
 
 <?php
-if ($_SERVER["GET"] == "POST") {
-    // collect value of input field
-    $name = $_POST['kek']; 
-    if (empty($name)) {
-        echo "Name is empty";
+if ($_GET['kek'] == "lmao") {
+        echo "top";
     } else {
-        echo $name;
+        echo ":disappointed:";
     }
 }
 ?>
