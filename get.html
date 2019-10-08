@@ -2,7 +2,7 @@
 <html>
 
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "GET”) {
+if( $_GET['kek'] ){
     // collect value of input field
     $name = $_GET['kek']; 
     if (empty($name)) {
